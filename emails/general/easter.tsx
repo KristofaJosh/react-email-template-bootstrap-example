@@ -17,21 +17,23 @@ const EmailBody = ({ name }: GeneralEasterProps) => {
     <div className="content-body">
       {name ? <Typography>Hi {name},</Typography> : null}
       <Typography>
-        This is the Easter email.
+        Wishing you a wonderful Easter filled with joy, peace, and plenty of treats! May this season of renewal bring happiness to you and your loved ones.
       </Typography>
       <br />
-      <Link href={baseHref('/account/general')}>this is a link</Link>
-      <br />
       <Button href={baseHref('/account/general')}>
-        Goto Dashboard
+        Go to Account
       </Button>
+      <br />
+      <Typography>
+        If you have any questions, feel free to visit our <Link href={baseHref('/faq')}>Help Center</Link>.
+      </Typography>
     </div>
   );
 };
 
 export const Easter = ({ ...props }: GeneralEasterProps) => {
   return (
-    <EmailContentWrapper email={props.email} previewText="happy easter">
+    <EmailContentWrapper email={props.email} previewText="Wishing you a Joyful Easter!">
       <EmailBody {...props} />
     </EmailContentWrapper>
   );
