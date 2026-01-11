@@ -42,7 +42,7 @@ export const EmailVariablesContextProvider = ({
       baseUrl,
       baseAssetUrl,
       org, // replace it with your org name
-      orgLogo: `${baseAssetUrl}/email/<${org}>-logo-emblem-sm.png`,
+      orgLogo: `https://placehold.co/150x50?text=Org Logo`,
       orgLogoLg: `${baseAssetUrl}/email/<${org}>-logo-emblem-lg.png`,
       orgLogoBg: `${baseAssetUrl}/email/<${org}>-logo-bg.png`,
       lang,
