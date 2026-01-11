@@ -25,7 +25,7 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
-          token: ${{ secrets.GH_TOKEN || secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.GH_TOKEN || secrets.GITHUB_TOKEN }} # You need to set up a personal access token with the 'workflow' scope enabled
           fetch-depth: 0 # Required to compare against previous commits
 
       - name: Use Node.js 22
