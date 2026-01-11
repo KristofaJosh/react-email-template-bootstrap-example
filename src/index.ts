@@ -25,8 +25,8 @@ export type {
  * If the module/template pair does not exist, returns undefined.
  *
  * @example
- * import { getTemplateComponent } from "@<org>/email-templates";
- * import type { EmailVariableType } from "@<org>/email-templates";
+ * import { getTemplateComponent } from "@kristofajosh/email-templates";
+ * import type { EmailVariableType } from "@kristofajosh/email-templates";
  *
  * const Comp = getTemplateComponent("order", "buyer-order-confirmation");
  * if (Comp) {

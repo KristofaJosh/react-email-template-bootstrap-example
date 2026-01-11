@@ -72,7 +72,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Kristofajosh/react-email-template-bootstrap.git",
+    "url": "git+https://github.com/KristofaJosh/react-email-template-bootstrap-example.git",
     "directory": "src"
   },
   "publishConfig": {
